@@ -1,5 +1,6 @@
 package at.ac.fhcampuswien;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class App {
@@ -10,7 +11,7 @@ public class App {
     }
 
     //todo Task 2
-    public void helloRobot(){
+    public void helloRobot() {
         // input your solution here
         System.out.println("0123456789012345678901");
         System.out.println("         __");
@@ -22,7 +23,7 @@ public class App {
         System.out.println("      (--/\--)    \__/");
         System.out.println("      _)(  )(_");
         System.out.println("     `---´´---`");
-
+    }
     //todo Task 3
     public void sumOfLiterals(){
         // input your solution here
