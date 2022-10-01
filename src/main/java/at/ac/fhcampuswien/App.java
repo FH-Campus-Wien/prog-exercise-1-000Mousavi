@@ -1,8 +1,5 @@
 package at.ac.fhcampuswien;
 
-import java.util.Arrays;
-import java.util.Scanner;
-
 public class App {
 
     //todo Task 1
@@ -11,22 +8,34 @@ public class App {
     }
 
     //todo Task 2
-    public void helloRobot() {
-        // input your solution here
-        System.out.println("0123456789012345678901");
-        System.out.println("         __");
-        System.out.println(" _(\    |@@|");
-        System.out.println("(__/\__ \--/ __");
-        System.out.println("   \___|----|  |   __");
-        System.out.println("       \ }{ /\ )_ / _\ ");
-        System.out.println("       /\__/\ \__0 (__");
-        System.out.println("      (--/\--)    \__/");
-        System.out.println("      _)(  )(_");
-        System.out.println("     `---´´---`");
+public void HelloRobot(){
+    System.out.println("0123456789012345678901");
+
+    System.out.println("         __" );
+    System.out.println(" _(\    |@@|");
+    System.out.println("(__/\__ \--/ __");
+    System.out.println("   \___|----|  |   __");
+    System.out.println("       \ }{ /\ )_ / _\ ");
+    System.out.println("       /\__/\ \__0 (__");
+    System.out.println("      (--/\--)    \__/");
+    System.out.println("      _)(  )(_");
+    System.out.println("     `---´´---`");
+
     }
     //todo Task 3
     public void sumOfLiterals(){
         // input your solution here
+        char char1 = 'Z';
+        int integer1 = 0xface;
+        int integer2 = Integer.parseInt("012");
+        long long1 = 80L;
+        float float1 = 44e-1f;
+        float float2 = 5.5f;
+        float float3 = 8.88e1f;
+        float float4 = 99.9f;
+        int sum = 0;
+        sum = (int) char1 + integer1 + integer2 + (int) long1 + (int) float1 +(int) float2 + (int) float3 + (int) float4 ;
+        System.out.println(sum);
     }
 
     //todo Task 4
