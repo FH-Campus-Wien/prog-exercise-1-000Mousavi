@@ -81,7 +81,7 @@ public void helloRobot(){
          System.out.print("n1 == n2" + System.lineSeparator());
      } else if (a < b) {
          System.out.print("n2 > n1" + System.lineSeparator());
-     } else if (a > b) {
+     } else {
          System.out.print("n1 > n2" + System.lineSeparator());
      }
 
@@ -109,7 +109,27 @@ public void helloRobot(){
 
     //todo Task 8
     public void getCommissionRate(){
-        // input your solution here
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter CommissionClass: ");
+        int a = scanner.nextInt();
+        switch (a) {
+            case 1:
+                System.out.print("Your Commission Rate was set to 0.01" + System.lineSeparator());
+            break;
+            case 2:
+                System.out.print("Your Commission Rate was set to 0.02" + System.lineSeparator());
+                break;
+            case 3:
+                System.out.print("Your Commission Rate was set to 0.03" + System.lineSeparator());
+                break;
+            case 4:
+                System.out.print("Your Commission Rate was set to 0.04" + System.lineSeparator());
+                break;
+            default:
+                System.out.print("Your Commission Rate was set to 0.0" + System.lineSeparator());
+                break;
+
+        }
     }
 
     //todo Task 9
