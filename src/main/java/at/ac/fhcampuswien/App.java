@@ -139,7 +139,15 @@ public void helloRobot(){
 
     //todo Task 10
     public void transposedNumbers(){
-        // input your solution here
+        Scanner scanner = new Scanner(System.in);
+        int beforeconversion, aftreConversion, a, b, c;
+        System.out.print("Number: ");
+        beforeconversion = scanner.nextInt();
+        a = beforeconversion/100;
+        b = (beforeconversion - a * 100) / 10;
+        c = (beforeconversion - a * 100 - b * 10);
+        aftreConversion = c * 100 + b * 10 + a;
+        System.out.print(aftreConversion + System.lineSeparator());
     }
 
 
