@@ -89,7 +89,22 @@ public void helloRobot(){
 
     //todo Task 7
     public void ratingSalesPerson(){
-        // input your solution here
+        Scanner scanner = new Scanner(System.in);
+
+        int sales = 0;
+        System.out.print("Enter annual Revenue:");
+        sales = scanner.nextInt();
+        if (sales < 0 || sales >= 100000) {
+            System.out.print("Invalid Revenue" + System.lineSeparator());
+        } else if (sales >= 0 && sales < 20000) {
+            System.out.print("Poor Revenue" + System.lineSeparator());
+        } else if (sales >= 20000 && sales < 50000) {
+            System.out.print("Average Revenue" + System.lineSeparator());
+        } else if (sales >= 50000 && sales < 80000) {
+            System.out.print("Good Revenue" + System.lineSeparator());
+        } else if (sales >= 80000 && sales < 100000) {
+            System.out.print("Excellent Sales Revenue");
+                }
     }
 
     //todo Task 8
