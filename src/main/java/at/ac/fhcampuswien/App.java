@@ -1,8 +1,9 @@
 package at.ac.fhcampuswien;
 
-public class App {
 
-    private UCharacterDirection bos;
+import java.util.Scanner;
+
+public class App {
 
     //todo Task 1
     public void sayHelloWorld(){
@@ -13,6 +14,15 @@ public class App {
 public void helloRobot(){
     System.out.println("0123456789012345678901");
     System.out.println("         __" );
+    System.out.println(" _(\\    |@@|");
+    System.out.println("(__/\\__ \\--/ __");
+    System.out.println("   \\___|----|  |   __");
+    System.out.println("       \\ }{ /\\ )_ / _\\");
+    System.out.println("       /\\__/\\ \\__O (__");
+    System.out.println("      (--/\\--)    \\__/");
+    System.out.println("      _)(  )(_");
+    System.out.println("     `---''---`");
+
 
 
 }
@@ -22,7 +32,7 @@ public void helloRobot(){
 
         char char1 = 'Z';
         int integer1 = 0xface;
-        int integer2 = 12;
+        int integer2 = 012;
         long long1 = 80L;
         float float1 = 44e-1f;
         float float2 = 5.5f;
