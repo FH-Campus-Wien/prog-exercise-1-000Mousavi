@@ -2,32 +2,27 @@ package at.ac.fhcampuswien;
 
 public class App {
 
+    private UCharacterDirection bos;
+
     //todo Task 1
     public void sayHelloWorld(){
         System.out.println("Hello World!");
     }
 
     //todo Task 2
-public void HelloRobot(){
+public void helloRobot(){
     System.out.println("0123456789012345678901");
-
     System.out.println("         __" );
-    System.out.println(" _(\    |@@|");
-    System.out.println("(__/\__ \--/ __");
-    System.out.println("   \___|----|  |   __");
-    System.out.println("       \ }{ /\ )_ / _\ ");
-    System.out.println("       /\__/\ \__0 (__");
-    System.out.println("      (--/\--)    \__/");
-    System.out.println("      _)(  )(_");
-    System.out.println("     `---´´---`");
 
-    }
+
+}
+
     //todo Task 3
     public void sumOfLiterals(){
-        // input your solution here
+
         char char1 = 'Z';
         int integer1 = 0xface;
-        int integer2 = Integer.parseInt("012");
+        int integer2 = 12;
         long long1 = 80L;
         float float1 = 44e-1f;
         float float2 = 5.5f;
@@ -40,17 +35,46 @@ public void HelloRobot(){
 
     //todo Task 4
     public void addTwoNumbers(){
-        // input your solution here
+        Scanner scanner = new Scanner(System.in);
+        int a , b = 0;
+        a = scanner.nextInt();
+        b = scanner.nextInt();
+        System.out.println(a + b);
     }
 
     //todo Task 5
     public void swapTwoNumbers(){
-        // input your solution here
+        Scanner scanner = new Scanner(System.in);
+        int a , b = 0;
+        System.out.println("Before Swap:");
+        System.out.print("x: ");
+        a = scanner.nextInt();
+        System.out.print("y: ");
+        b = scanner.nextInt();
+        a = a + b;
+        b = a - b;
+        a = a - b;
+        System.out.println("After Swap:");
+        System.out.println("x: " + a);
+        System.out.println("y: " + b);
+
     }
 
     //todo Task 6
     public void compareTwoNumbers(){
-        // input your solution here
+     Scanner scanner = new Scanner(System.in);
+     System.out.print("n1:");
+     int a = scanner.nextInt();
+     System.out.print("n2:");
+     int b = scanner.nextInt();
+     if (a == b) {
+         System.out.print("n1 == n2" + System.lineSeparator());
+     } else if (a < b) {
+         System.out.print("n2 > n1" + System.lineSeparator());
+     } else if (a > b) {
+         System.out.print("n1 > n2" + System.lineSeparator());
+     }
+
     }
 
     //todo Task 7
